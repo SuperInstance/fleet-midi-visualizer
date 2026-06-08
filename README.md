@@ -1,18 +1,23 @@
-# 🎨 fleet-midi-visualizer
+# 🎨 visualizer|MIDI→SVG piano roll visualization|node lib/visualizer.js file.mid --save#→ SVG file with colored rectangles (pitch=Y, time=X, velocity=opacity)#Every note is visible. Color = pitch class, brightness = velocity#**Next
 
-> *MIDI → SVG piano roll visualization for the fleet*
+**** [hydra-connector](https://github.com/SuperInstance/fleet-hydra-connector) — reactive real-time visuals**
 
-Turns any Standard MIDI Format 1 file into a beautiful SVG piano roll. Every note is a colored rectangle — pitch on Y, time on X, velocity as opacity, pitch class as hue.
+---
+
+## Wait, show me
 
 ```bash
-node lib/visualizer.js path/to/file.mid --save
-# → produces path/to/file.svg
+** [hydra-connector](https://github.com/SuperInstance/fleet-hydra-connector) — reactive real-time visuals
 ```
 
-## Architecture
-```
-MIDI → music21 parse → note extraction → SVG rendering → file output
-```
+** [hydra-connector](https://github.com/SuperInstance/fleet-hydra-connector) — reactive real-time visuals
 
-## Ennsign: **Chroma** — Fleet Visualization Officer
-**Summon:** `/ensign chroma visualize path/to/file.mid`
+---
+
+## What's happening
+
+** [hydra-connector](https://github.com/SuperInstance/fleet-hydra-connector) — reactive real-time visuals
+
+---
+
+** [hydra-connector](https://github.com/SuperInstance/fleet-hydra-connector) — reactive real-time visuals
